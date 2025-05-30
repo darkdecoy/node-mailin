@@ -16,7 +16,7 @@ Node-Mailin can run without any dependencies other than node itself, but having 
 
 So first make sure the node is available, and the `node` command as well. On Debian/Ubuntu boxes:
 
-```
+```bash
 sudo aptitude install nodejs ; sudo ln -s $(which nodejs) /usr/bin/node
 ```
 
@@ -29,7 +29,6 @@ sudo aptitude install spamassassin spamc
 sudo update-rc.d spamassassin enable
 sudo service spamassassin start
 ```
-
 
 #### Node versions
 
@@ -50,7 +49,7 @@ You can fire up Node-Mailin (see next section) and use an [smtp server tester](h
 
 Install Node-Mailin globally.
 
-```
+```bash
 sudo npm install -g node-mailin
 ```
 
@@ -58,14 +57,14 @@ Run it, (addtionnal help can be found using `node-mailin --help`). By default, N
 
 Ports number under 1000 are reserved to root user. So two options here. Either run Node-Mailin as root:
 
-```
+```bash
 sudo node-mailin --port 25
 ```
 
 Or, prefered choice, use something like `authbind` to run Node-Mailin with a standard user while still using port 25.
 Here comes a [tutorial on how to setup authbind](http://respectthecode.tumblr.com/post/16461876216/using-authbind-to-run-node-js-on-port-80-with-dreamhost). In this case, do something like:
 
-```
+```bash
 authbind --deep node-mailin --port 25
 ```
 
@@ -85,7 +84,7 @@ At this point, Node-Mailin will listen for incoming emails, parse them, Then you
 
 Install node-mailin locally.
 
-```
+```bash
 sudo npm install --save node-mailin
 ```
 
