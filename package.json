@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vithalreddy/node-mailin.git"
+    "url": "https://github.com/darkdecoy/node-mailin.git"
   },
   "keywords": [
     "incoming",
@@ -23,42 +23,42 @@
     "easy",
     "post"
   ],
-  "author": "VithalReddy",
+  "author": "VithalReddy and Dark Decoy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vithalreddy/node-mailin/issues"
+    "url": "https://github.com/darkdecoy/node-mailin/issues"
   },
-  "homepage": "https://github.com/vithalreddy/node-mailin",
+  "homepage": "https://github.com/darkdecoy/node-mailin",
   "dependencies": {
-    "bluebird": "^3.5.1",
-    "commander": "^2.8.1",
-    "dkim": "^0.4.1",
-    "extend": "^3.0.1",
+    "bluebird": "^3.7.2",
+    "commander": "^14.0.0",
+    "dkim": "^0.8.0",
+    "extend": "^3.0.2",
     "forever-monitor": "nordluf/forever-monitor",
-    "html-to-text": "^8.0.0",
-    "languagedetect": "^1.1.1",
-    "lodash": ">=4.17.11",
-    "mailparser": "^3.0.0",
-    "semver": "^5.0.1",
-    "shelljs": "^0.8.5",
-    "smtp-server": "^3.4.4",
+    "html-to-text": "^9.0.5",
+    "languagedetect": "^2.0.0",
+    "lodash": ">=4.17.21",
+    "mailparser": "^3.7.3",
+    "semver": "^7.7.2",
+    "shelljs": "^0.10.0",
+    "smtp-server": "^3.13.7",
     "spamc": "^0.0.5",
     "spf-validator": "^0.2.0",
-    "uuid": "^3.2.1",
-    "winston": "^2.4.2"
+    "uuid": "^11.1.0",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "async": "^3.0.0",
-    "chai": "^4.1.2",
-    "chai-as-promised": "^7.1.1",
-    "express": "^4.16.3",
-    "grunt": "^1.0.2",
-    "grunt-contrib-jshint": "^3.0.0",
-    "grunt-jsbeautifier": "^0.2.10",
+    "async": "^3.2.6",
+    "chai": "^5.2.0",
+    "chai-as-promised": "^8.0.1",
+    "express": "^5.1.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-jsbeautifier": "^0.2.13",
     "grunt-mocha-test": "^0.13.3",
-    "mocha": "^10.0.0",
-    "multiparty": "^4.1.2",
-    "should": "^13.2.1",
+    "mocha": "^11.5.0",
+    "multiparty": "^4.2.3",
+    "should": "^13.2.3",
     "smtp-connection": "nordluf/smtp-connection"
   }
 }
